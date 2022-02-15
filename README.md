@@ -138,7 +138,8 @@ Execute o seguinte comando
 ```php
 php artisan queue:work
 ```
-![alt text](https://drive.google.com/file/d/1hxE-RE2N5rc4E8sCLvwsKkuTOv-XfMk3/view?usp=sharing)
+![alt text](https://github.com/carlosrmfernandes/api-locadora/blob/master/public/img/Screen%20Shot%202022-02-13%20at%2021.29.57.png)
+![alt text](https://github.com/carlosrmfernandes/api-locadora/blob/master/public/img/Screen%20Shot%202022-02-13%20at%2021.30.11.png)
 
 ## Teste Unintário  
 
@@ -149,6 +150,7 @@ vendor/bin/phpunit
 ou
 php artisan test
 ```
+![alt text](https://github.com/carlosrmfernandes/api-locadora/blob/master/public/img/Screen%20Shot%202022-02-15%20at%2017.07.33.png)
 
 ## Sobre os testes 
 >Recomendamos o uso de qualquer ferramenta `client-rest` para testes nas chamadas da API.
