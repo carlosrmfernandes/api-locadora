@@ -1,8 +1,7 @@
-![alt text](https://avatars.githubusercontent.com/u/66464086?s=200&v=4)
+![alt text](https://www.conceitolocadora.com.br/img/logo-facebook.jpg)
 
-# APi Hope
+# APi Locadora
 
-O micro-serviço `api-hope` tem a responsabilidade de facilitar a criação e a implementação de um projeto inicial.
 
 ### DOCUMENTAÇÃO
 
@@ -84,7 +83,9 @@ cd <Diretório do projecto>
 cp .env.docker.example .env
 
 #para instalar as dependência do projecto
-composer install
+composer install ou composer install --ignore-platform-reqs
+
+obs: caso acontece algum erro execute esse comando fora do container
 ```
 
 ## Banco de dados
@@ -137,7 +138,7 @@ Execute o seguinte comando
 ```php
 php artisan queue:work
 ```
-
+![alt text](https://drive.google.com/file/d/1hxE-RE2N5rc4E8sCLvwsKkuTOv-XfMk3/view?usp=sharing)
 
 ## Teste Unintário  
 
@@ -158,11 +159,11 @@ php artisan test
 - *POSTMAN*
 [https://www.getpostman.com/downloads/](https://www.getpostman.com/downloads/)
 
-## Chamadas da API	
-Documentação: 
 
 ## Link da collections 
 Collections:
+
+https://www.getpostman.com/collections/0797f3ecd17554317109
 
 ## Erros
 
