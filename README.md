@@ -163,7 +163,7 @@ php artisan test
 ## Link da collections 
 Collections:
 
-https://www.getpostman.com/collections/0797f3ecd17554317109
+https://www.getpostman.com/collections/0311fc08cb9daa358705
 
 ## Erros
 
