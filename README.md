@@ -150,8 +150,6 @@ vendor/bin/phpunit
 ou
 php artisan test
 ```
-![alt text](https://github.com/carlosrmfernandes/api-locadora/blob/master/public/img/Screen%20Shot%202022-02-15%20at%2017.07.33.png)
-
 ## Sobre os testes 
 >Recomendamos o uso de qualquer ferramenta `client-rest` para testes nas chamadas da API.
  
