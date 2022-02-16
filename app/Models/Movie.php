@@ -11,7 +11,11 @@ class Movie extends Model
         'name', 'archive','size','user_id'
     ];
     protected $visible = [
-        'id', 'name', 'archive','size','created_at','user_id'
+        'id', 'name', 'archive','size','created_at','user_id','tags'
     ];
 
+    public function tags(){
+        return $this->belongsToMany(Tag::class, 'movie_tags')
+             ->withTimestamps();;
+    }
 }

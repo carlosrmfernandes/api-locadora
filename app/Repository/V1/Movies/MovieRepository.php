@@ -62,6 +62,7 @@ class MovieRepository extends BaseRepository
     public function show(int $id): object
     {
         return (object) $this->obj
+            ->with('tags')
             ->where('id', $id)
             ->first();
     }
